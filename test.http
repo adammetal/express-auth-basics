@@ -1,0 +1,19 @@
+POST http://localhost:8000/signup
+Content-Type: application/json
+
+{
+  "email": "adam.metal@codecool.com",
+  "password": "1234"
+}
+
+###
+POST http://localhost:8000/signin
+Content-Type: application/json
+
+{
+  "email": "adam.metal@codecool.com",
+  "password": "1234"
+}
+
+###
+GET http://localhost:8000/profile
